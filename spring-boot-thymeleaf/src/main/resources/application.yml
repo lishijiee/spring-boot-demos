@@ -1,0 +1,9 @@
+server:
+  servlet:
+    context-path: /thymeleaf
+  port: 9001
+spring:
+  thymeleaf:
+    encoding: UTF-8
+    cache: false # 可在生产设置为 true
+    prefix: classpath:/templates/
