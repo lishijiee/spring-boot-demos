@@ -4,6 +4,9 @@ server:
   port: 9001
 spring:
   thymeleaf:
+    # 文件编码为 UTF-8
     encoding: UTF-8
-    cache: false # 可在生产设置为 true
+    # 开发中需要看到实时数据设置为 false, 可在生产设置为 true
+    cache: false
+    # 模板默认位置为 templates，可更改到指定路径
     prefix: classpath:/templates/
