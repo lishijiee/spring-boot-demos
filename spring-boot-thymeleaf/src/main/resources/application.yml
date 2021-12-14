@@ -10,3 +10,5 @@ spring:
     cache: false
     # 模板默认位置为 templates，可更改到指定路径
     prefix: classpath:/templates/
+    mode: HTML
+    enabled: true
