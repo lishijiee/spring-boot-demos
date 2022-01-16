@@ -1,0 +1,17 @@
+server:
+  servlet:
+    context-path: /h2
+  port: 9005
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    schema: classpath:db/schema-h2.sql #初始化
+    data: classpath:db/data-h2.sql #初始化数据
+    url: jdbc:h2:mem:test #不持久化，放在内存中
+#    url: jdbc:h2:~/test
+    username: root
+    password: test
+  h2:
+    console:
+      path: /h2-console
+      enabled: true #必须配置，不然无法访问
