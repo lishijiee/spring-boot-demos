@@ -25,6 +25,7 @@
         <module>spring-boot-mail</module>
         <module>spring-boot-redis</module>
         <module>spring-boot-h2</module>
+        <module>spring-boot-shiro</module>
     </modules>
 
     <dependencies>
