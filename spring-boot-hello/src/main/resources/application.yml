@@ -2,3 +2,6 @@ server:
   servlet:
     context-path: /hello/
   port: 8081
+spring:
+  main:
+    banner-mode: off
