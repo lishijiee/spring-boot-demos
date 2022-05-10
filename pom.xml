@@ -13,7 +13,9 @@
     <version>${reversion}</version>
     <name>${project.artifactId}</name>
     <packaging>pom</packaging>
-    <description>spring-boot-demos</description>
+    <description>
+        基于 Spring-Boot 的技术学习验证
+    </description>
 
     <properties>
         <java.version>17</java.version>
