@@ -8,78 +8,20 @@
         <version>2.5.6</version>
     </parent>
 
-    <groupId>com.lishijiee</groupId>
+    <groupId>com.lishijiee.demos</groupId>
     <artifactId>spring-boot-demos</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>spring-boot-demos</name>
+    <version>${reversion}</version>
+    <name>${project.artifactId}</name>
     <packaging>pom</packaging>
     <description>spring-boot-demos</description>
 
     <properties>
         <java.version>17</java.version>
+        <reversion>0.0.1-SNAPSHOT</reversion>
     </properties>
 
     <modules>
-        <module>spring-boot-hello</module>
-        <module>spring-boot-thymeleaf</module>
-        <module>spring-boot-mail</module>
-        <module>spring-boot-redis</module>
-        <module>spring-boot-h2</module>
-        <module>spring-boot-shiro</module>
+        <module>demo-01-shiro</module>
     </modules>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-test</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
-
-    </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
