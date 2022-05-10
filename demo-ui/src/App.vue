@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Sun-qian"/>
+  <HelloWorld msg="Welcome to Demos"/>
 </template>
 
 <script>
