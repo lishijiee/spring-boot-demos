@@ -1,7 +1,9 @@
 # spring-boot-demos
 Don't tell me nothing,  show me.
-> demo-01-shiro
-> 
+
+### 访问地址
+> [demo-01-shiro](http://localhost:9001/demo-shiro/getUser)
+
 
 ## 前端技术
 
