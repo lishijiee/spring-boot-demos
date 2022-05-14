@@ -1,15 +1,19 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
+  <SpacexToc msg="Not Spacex"/>
   <HelloWorld msg="Welcome to Demos"/>
+
 </template>
 
 <script>
+import SpacexToc from "@/components/SpacexToc";
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SpacexToc,
+    HelloWorld,
   }
 }
 </script>

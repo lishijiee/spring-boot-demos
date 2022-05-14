@@ -1,12 +1,11 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-
     <p>
       用户名：<input type="text" name="用户名"/><br>
       密&nbsp;&nbsp;&nbsp;&nbsp;码：<input  type="password" name="密码"/><br>
     </p>
-
+    <el-button type="primary">提交</el-button>
   </div>
 </template>
 
