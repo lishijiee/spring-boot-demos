@@ -1,0 +1,37 @@
+<!DOCTYPE html >
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>one-mall</title>
+</head>
+<body>
+
+<div th:align="center">
+    <img alt="Vue logo" src="./../images/logo.png" width="200" height="200">
+</div>
+<div th:align="center">
+    <h3>用户信息表</h3>
+    <h6>新增</h6>
+<table th:border="1" >
+    <thead>
+    <tr>
+        <th>姓名</th>
+        <th>密码</th>
+        <th>权限</th>
+        <th>角色</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="account : ${accountList}">
+        <td th:text="${account.getUsername()}">username</td>
+        <td th:text="${account.getPassword()}">password</td>
+        <td th:text="${account.getPerms()}">perms</td>
+        <td th:text="${account.getRole()}">role</td>
+        <td th:onclick=""><button th:onclick="/getAllAccount">更新</button></td><td th:onclick=""><button>删除</button></td>
+    </tr>
+    </tbody>
+</table>
+</div>
+</body>
+</html>

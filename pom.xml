@@ -23,7 +23,7 @@
     </properties>
 
     <modules>
-        <module>demo-01-shiro</module>
+        <module>demo-01-one-mall</module>
     </modules>
 
 </project>
